@@ -30,11 +30,11 @@ function JobsCard() {
     console.log(jobData)
 
     return (
-        <div>
-            <div className='job-head'>Job Search{jobData.length}</div>
-            {jobData.length}
-            {jobData.length > 0 ? (
-                jobData.map((job, index) => (
+        <>
+            <div className='job-head'>Job Search</div>
+            <div className='row' style={{justifyContent: 'space-evenly'}}>
+            {jobData && jobData.jdList && jobData.jdList.length > 0 ? (
+                jobData.jdList.map((job, index) => (
                     <div key={index} className='col-3 job-card'>
                         <div>
                             <span>Job title: {job.jobRole}</span>
@@ -59,7 +59,8 @@ function JobsCard() {
             ) : (
                 <div>Loading...</div>
             )}
-        </div>
+            </div>
+        </>
     );
 }
 
