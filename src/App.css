@@ -42,3 +42,30 @@
 .get-refer img, span{
   margin: 20px 15px;
 }
+
+/* Job css */
+.job-head{
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-bottom: 2px solid #f6f6f6;
+  border-radius: 10px;
+}
+.job-card{
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #f6f6f6;
+  border-radius: 10px;
+}
+.apply button{
+  width: 100%;
+  background-color: rgb(85, 239, 196);
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  border-radius: 15px;
+  padding: 8px 18px;
+}
+span {
+  font-family: serif;
+}
+/* Job css */
