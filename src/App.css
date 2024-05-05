@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+.logo{
+  padding-bottom: 20px ;
+  border-bottom: 3px solid #f6f6f6;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Userlogo{
+  margin: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sideleft{
+  height: 100%;
+  position: fixed;
+  border: 2px solid #f6f6f6;
+  border-radius: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sideright{
+  height: 100%;
+  position: fixed;
+  border: 2px solid #f6f6f6;
+  border-radius: 10px;
+  background-color: rgb(187, 252, 234);
+}
+.useredit{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.edit-user{
+  font-size: 14px;
+  font-weight: 700;
+  color: #757575;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.get-job{
+  font-size: 12px;
+  font-family: monospace;
+}
+.underline{
+  border: 2px solid #bdbdbd;
+  margin: 10px 0;
+  border-radius: 25px;
+}
+.get-jobs img{
+  margin: 15px;
+}
+.get-refer img, span{
+  margin: 20px 15px;
 }

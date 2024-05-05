@@ -1,11 +1,13 @@
 import React from 'react';
 
 function jobsCard() {
+
+    
   return (
     <>
     <div className="row">
       <div className='' style={{textAlign: 'center'}}>
-      Main cards Heree
+      Job Search
       </div>
     </div>
     </>
