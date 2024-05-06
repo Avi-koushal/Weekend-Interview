@@ -3,7 +3,7 @@ import React from 'react';
 function sidebarleft() {
     return (
         <>
-            <div className="sideleft p-3">
+            <div className="sideleft p-4" style={{textAlign: "center"}}>
                 <div className='logo'>
                     <img src="/weekend-img/logo-small.08826abd.png" alt="Background" height="50px" width="50px" />
                 </div>
